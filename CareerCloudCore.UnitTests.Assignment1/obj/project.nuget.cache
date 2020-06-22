@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KSm24/gHjEY4mQLlH3amtybRUMRJlrPEoglPWYSICsBpeDE68i/iRxlNyjwVFpq7bRQlvBgEicVg+ockMOxReg==",
+  "dgSpecHash": "syEuc030vHUjaUJdUknyT4BgqPM/Apz2AQG8izdrw+WzQsfxlG+/6eioQ4o5w/3/FkYbfTH21R0UVssrPGNN+g==",
   "success": true,
   "projectFilePath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
   "expectedPackageFiles": [
@@ -108,8 +108,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.0.11\\system.xml.xmlserializer.4.0.11.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

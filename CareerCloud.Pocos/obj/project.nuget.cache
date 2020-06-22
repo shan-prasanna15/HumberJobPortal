@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MMpxsk6u4mvq7l7647/S9UqbAk7DEpXIs+wWhxVpr6/lqmaWPAtJj0N8al6SMw6Oo7mtz2Yn1/zy8nB/uTYSbw==",
+  "dgSpecHash": "VOI8BYl+DgelO1sWE+22gbZqXdg95YcFifHKZk4z7QYwTSfEZWAHNy5VQx6wRpcW0lnfKBCpBrQPH+ZhYzc/wg==",
   "success": true,
   "projectFilePath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
