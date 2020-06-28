@@ -6,3 +6,4 @@ E:\edu\Canada\Humber .Net Bridging\C# .Net\Code\Assignment Work\Assignment1\Care
 E:\edu\Canada\Humber .Net Bridging\C# .Net\Code\Assignment Work\Assignment1\CareerCloud’\CareerCloud.Pocos\obj\Debug\netcoreapp3.1\CareerCloud.Pocos.csproj.CoreCompileInputs.cache
 E:\edu\Canada\Humber .Net Bridging\C# .Net\Code\Assignment Work\Assignment1\CareerCloud’\CareerCloud.Pocos\obj\Debug\netcoreapp3.1\CareerCloud.Pocos.dll
 E:\edu\Canada\Humber .Net Bridging\C# .Net\Code\Assignment Work\Assignment1\CareerCloud’\CareerCloud.Pocos\obj\Debug\netcoreapp3.1\CareerCloud.Pocos.pdb
+E:\edu\Canada\Humber .Net Bridging\C# .Net\Code\Assignment Work\Assignment1\CareerCloud’\CareerCloud.Pocos\obj\Debug\netcoreapp3.1\CareerCloud.Pocos.csprojAssemblyReference.cache
