@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6LcI67fgxtF+CoAZu9rOv7eNCFqwppcR7DY66h8DRdnSoex9mZna5BVqAYjHl7OVikGY8MKpZRS1tWMsberrmw==",
+  "dgSpecHash": "vHLVwFjY3Lz2k+83mXb5KgVjn+4vSlrcQ5cBSzL77OAkfQLMe0WiGhexpwMDlkHtwiF0DK2zkNXKHe5BtfWclw==",
   "success": true,
-  "projectFilePath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj",
+  "projectFilePath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

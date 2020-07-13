@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+      "projectUniqueName": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
       "projectName": "CareerCloud.Pocos",
-      "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+      "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.Pocos\\obj\\",
+      "outputPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.Pocos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

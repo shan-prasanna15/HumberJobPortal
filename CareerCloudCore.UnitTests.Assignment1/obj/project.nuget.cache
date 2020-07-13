@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "syEuc030vHUjaUJdUknyT4BgqPM/Apz2AQG8izdrw+WzQsfxlG+/6eioQ4o5w/3/FkYbfTH21R0UVssrPGNN+g==",
+  "dgSpecHash": "bIKfJbuq/kWUX2mCu196RerR2aGkMeegqkmtt+QHDpeOqcZ+m7CRFrZBqQhJZTlhNGpaWslJhVpj9uvPkfo8Lw==",
   "success": true,
-  "projectFilePath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
+  "projectFilePath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\coverlet.collector\\1.0.1\\coverlet.collector.1.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",

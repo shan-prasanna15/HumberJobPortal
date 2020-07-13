@@ -6816,11 +6816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
+      "projectUniqueName": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
       "projectName": "CareerCloudCore.UnitTests.Assignment1",
-      "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
+      "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloudCore.UnitTests.Assignment1\\CareerCloudCore.UnitTests.Assignment1.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloudCore.UnitTests.Assignment1\\obj\\",
+      "outputPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloudCore.UnitTests.Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6839,8 +6839,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
-              "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+            "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+              "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
             }
           }
         }

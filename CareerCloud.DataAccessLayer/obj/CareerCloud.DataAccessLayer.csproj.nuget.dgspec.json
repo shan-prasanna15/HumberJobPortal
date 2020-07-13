@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {}
+    "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+    "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
+        "projectUniqueName": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
         "projectName": "CareerCloud.DataAccessLayer",
-        "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
+        "projectPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignment1\\CareerCloud’\\CareerCloud.DataAccessLayer\\obj\\",
+        "outputPath": "E:\\edu\\Canada\\Humber .Net Bridging\\C# .Net\\Code\\Assignment Work\\Assignments\\CareerCloud\\CareerCloud.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
