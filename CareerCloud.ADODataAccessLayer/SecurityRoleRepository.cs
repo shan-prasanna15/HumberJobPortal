@@ -63,6 +63,7 @@ namespace CareerCloud.ADODataAccessLayer
                 poco.IsInactive = rdr.GetBoolean(2);
 
                 pocos[x] = poco;
+                x++;
             }
             conn.Close();
             return pocos.Where(p => p != null).ToList();
