@@ -8,7 +8,7 @@ using System.Text;
 
 namespace CareerCloud.ADODataAccessLayer
 {
-    public class ApplicantJobApplicationRepository : IDataRepository<ApplicantJobApplicationPoco>
+    public class ApplicantJobApplicationRepository : SystemCountryCodeRepository<ApplicantJobApplicationPoco>
     {
         public void Add(params ApplicantJobApplicationPoco[] items)
         {

@@ -10,7 +10,7 @@ using System.Text;
 
 namespace CareerCloud.ADODataAccessLayer
 {
-    public class CompanyJobEducationRepository : IDataRepository<CompanyJobEducationPoco>
+    public class CompanyJobEducationRepository : SystemCountryCodeRepository<CompanyJobEducationPoco>
     {
         public void Add(params CompanyJobEducationPoco[] items)
         {

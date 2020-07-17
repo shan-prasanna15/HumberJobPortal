@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace CareerCloud.DataAccessLayer
 {
-    public interface IDataRepository<T>
+    public interface SystemCountryCodeRepository<T>
     {
         IList<T> GetAll(params Expression<Func<T, object>>[] navigationProperties);
         IList<T> GetList(Expression<Func<T, bool>> where, params Expression<Func<T, object>>[] navigationProperties);

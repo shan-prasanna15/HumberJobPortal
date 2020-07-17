@@ -10,7 +10,7 @@ using System.Text;
 
 namespace CareerCloud.ADODataAccessLayer
 {
-    public class SecurityLoginRepository : IDataRepository<SecurityLoginPoco>
+    public class SecurityLoginRepository : SystemCountryCodeRepository<SecurityLoginPoco>
     {
         public void Add(params SecurityLoginPoco[] items)
         {
