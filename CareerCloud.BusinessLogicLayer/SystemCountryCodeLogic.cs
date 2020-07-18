@@ -29,6 +29,21 @@ namespace CareerCloud.BusinessLogicLayer
             _repository.Update(pocos);
         }
 
+        public List<SystemCountryCodePoco> GetAll()
+        {
+            return _repository.GetAll().ToList();
+        }
+
+        public void Delete(params SystemCountryCodePoco[] items)
+        {
+            _repository.Remove(items);
+        }
+
+        public void Get(Expression<Func<SystemCountryCodePoco, bool>> where, params Expression<Func<SystemCountryCodePoco, object>>[] navigationProperties)
+        {
+            _repository.GetSingle(where, navigationProperties);
+        }
+
         protected void Verify(SystemCountryCodePoco[] pocos)
         {
             List<ValidationException> exceptions = new List<ValidationException>();
@@ -49,19 +64,6 @@ namespace CareerCloud.BusinessLogicLayer
             }
         }
 
-        public List<SystemCountryCodePoco> GetAll()
-        {
-            return _repository.GetAll().ToList();
-        }
 
-        public void Delete(params SystemCountryCodePoco[] items)
-        {
-            _repository.Remove(items);
-        }
-
-        public void Get(Expression<Func<SystemCountryCodePoco, bool>> where, params Expression<Func<SystemCountryCodePoco, object>>[] navigationProperties)
-        {
-            _repository.GetSingle(where, navigationProperties);
-        }
     }
 }
