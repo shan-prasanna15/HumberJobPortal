@@ -9,7 +9,7 @@ using System.Text;
 
 namespace CareerCloud.ADODataAccessLayer
 {
-    public class CompanyProfileRepository : SystemCountryCodeRepository<CompanyProfilePoco>
+    public class CompanyProfileRepository : IDataRepository<CompanyProfilePoco>
     {
         public void Add(params CompanyProfilePoco[] items)
         {

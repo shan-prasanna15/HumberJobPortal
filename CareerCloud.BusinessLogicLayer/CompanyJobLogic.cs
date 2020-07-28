@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class CompanyJobLogic : BaseLogic<CompanyJobPoco>
     {
-        public CompanyJobLogic(SystemCountryCodeRepository<CompanyJobPoco> repository) : base(repository)
+        public CompanyJobLogic(IDataRepository<CompanyJobPoco> repository) : base(repository)
         { }
 
     }

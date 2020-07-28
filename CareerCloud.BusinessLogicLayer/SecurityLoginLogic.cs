@@ -12,7 +12,7 @@ public class SecurityLoginLogic : BaseLogic<SecurityLoginPoco>
 {
     private const int saltLengthLimit = 10;
 
-    public SecurityLoginLogic(SystemCountryCodeRepository<SecurityLoginPoco> repository) : base(repository)
+    public SecurityLoginLogic(IDataRepository<SecurityLoginPoco> repository) : base(repository)
     {
     }
 

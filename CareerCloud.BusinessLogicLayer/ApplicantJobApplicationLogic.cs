@@ -7,7 +7,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class ApplicantJobApplicationLogic : BaseLogic<ApplicantJobApplicationPoco>
     {
-        public ApplicantJobApplicationLogic(DataAccessLayer.SystemCountryCodeRepository<ApplicantJobApplicationPoco> repository) : base(repository)
+        public ApplicantJobApplicationLogic(DataAccessLayer.IDataRepository<ApplicantJobApplicationPoco> repository) : base(repository)
         { }
 
         public override void Add(ApplicantJobApplicationPoco[] pocos)

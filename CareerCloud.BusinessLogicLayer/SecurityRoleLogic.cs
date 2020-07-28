@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class SecurityRoleLogic : BaseLogic<SecurityRolePoco>
     {
-        public SecurityRoleLogic(SystemCountryCodeRepository<SecurityRolePoco> repository) : base(repository)
+        public SecurityRoleLogic(IDataRepository<SecurityRolePoco> repository) : base(repository)
         { }
 
         protected override void Verify(SecurityRolePoco[] pocos)

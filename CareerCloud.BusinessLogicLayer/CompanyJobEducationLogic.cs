@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class CompanyJobEducationLogic : BaseLogic<CompanyJobEducationPoco>
     {
-        public CompanyJobEducationLogic(SystemCountryCodeRepository<CompanyJobEducationPoco> repository) : base(repository)
+        public CompanyJobEducationLogic(IDataRepository<CompanyJobEducationPoco> repository) : base(repository)
         { }
 
         public override void Add(CompanyJobEducationPoco[] pocos)

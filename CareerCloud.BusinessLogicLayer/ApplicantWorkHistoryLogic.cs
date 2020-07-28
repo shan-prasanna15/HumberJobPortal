@@ -9,7 +9,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class ApplicantWorkHistoryLogic : BaseLogic<ApplicantWorkHistoryPoco>
     {
-        public ApplicantWorkHistoryLogic(SystemCountryCodeRepository<ApplicantWorkHistoryPoco> repository) : base(repository)
+        public ApplicantWorkHistoryLogic(IDataRepository<ApplicantWorkHistoryPoco> repository) : base(repository)
         { }
 
         protected override void Verify(ApplicantWorkHistoryPoco[] pocos)

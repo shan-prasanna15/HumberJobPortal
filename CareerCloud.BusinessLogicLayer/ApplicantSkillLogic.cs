@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class ApplicantSkillLogic : BaseLogic<ApplicantSkillPoco>
     {
-        public ApplicantSkillLogic(SystemCountryCodeRepository<ApplicantSkillPoco> repository) : base(repository)
+        public ApplicantSkillLogic(IDataRepository<ApplicantSkillPoco> repository) : base(repository)
         { }
 
         public override void Add(ApplicantSkillPoco[] pocos)

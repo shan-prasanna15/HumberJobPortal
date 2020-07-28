@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class CompanyJobDescriptionLogic : BaseLogic<CompanyJobDescriptionPoco>
     {
-        public CompanyJobDescriptionLogic(SystemCountryCodeRepository<CompanyJobDescriptionPoco> repository) : base(repository)
+        public CompanyJobDescriptionLogic(IDataRepository<CompanyJobDescriptionPoco> repository) : base(repository)
         { }
 
         protected override void Verify(CompanyJobDescriptionPoco[] pocos)

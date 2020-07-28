@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class SecurityLoginsLogLogic : BaseLogic<SecurityLoginsLogPoco>
     {
-        public SecurityLoginsLogLogic(SystemCountryCodeRepository<SecurityLoginsLogPoco> repository) : base(repository)
+        public SecurityLoginsLogLogic(IDataRepository<SecurityLoginsLogPoco> repository) : base(repository)
         { }
     }
 }

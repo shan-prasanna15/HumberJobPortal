@@ -9,7 +9,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class ApplicantProfileLogic : BaseLogic<ApplicantProfilePoco>
     {
-        public ApplicantProfileLogic(SystemCountryCodeRepository<ApplicantProfilePoco> repository) : base(repository)
+        public ApplicantProfileLogic(IDataRepository<ApplicantProfilePoco> repository) : base(repository)
         { }
 
         protected override void Verify(ApplicantProfilePoco[] pocos)

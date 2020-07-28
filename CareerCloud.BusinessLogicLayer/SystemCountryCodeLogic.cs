@@ -11,8 +11,8 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class SystemCountryCodeLogic
     {
-        protected SystemCountryCodeRepository<SystemCountryCodePoco> _repository;
-        public SystemCountryCodeLogic(SystemCountryCodeRepository<SystemCountryCodePoco> repository)
+        protected IDataRepository<SystemCountryCodePoco> _repository;
+        public SystemCountryCodeLogic(IDataRepository<SystemCountryCodePoco> repository)
         {
             _repository = repository;
         }

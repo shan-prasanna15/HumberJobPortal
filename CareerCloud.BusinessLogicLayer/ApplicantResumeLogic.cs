@@ -8,7 +8,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class ApplicantResumeLogic : BaseLogic<ApplicantResumePoco>
     {
-        public ApplicantResumeLogic(SystemCountryCodeRepository<ApplicantResumePoco> repository) : base(repository)
+        public ApplicantResumeLogic(IDataRepository<ApplicantResumePoco> repository) : base(repository)
         { }
 
         protected override void Verify(ApplicantResumePoco[] pocos)

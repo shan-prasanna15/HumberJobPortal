@@ -9,7 +9,7 @@ namespace CareerCloud.BusinessLogicLayer
 {
     public class CompanyDescriptionLogic : BaseLogic<CompanyDescriptionPoco>
     {
-        public CompanyDescriptionLogic(SystemCountryCodeRepository<CompanyDescriptionPoco> repository) : base(repository)
+        public CompanyDescriptionLogic(IDataRepository<CompanyDescriptionPoco> repository) : base(repository)
         { }
 
         public override void Add(CompanyDescriptionPoco[] pocos)

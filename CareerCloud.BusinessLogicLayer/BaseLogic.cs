@@ -9,8 +9,8 @@ namespace CareerCloud.BusinessLogicLayer
 	public abstract class BaseLogic<TPoco>
 		where TPoco : IPoco
 	{
-		protected SystemCountryCodeRepository<TPoco> _repository;
-		public BaseLogic(SystemCountryCodeRepository<TPoco> repository)
+		protected IDataRepository<TPoco> _repository;
+		public BaseLogic(IDataRepository<TPoco> repository)
 		{
 			_repository = repository;
 		}
