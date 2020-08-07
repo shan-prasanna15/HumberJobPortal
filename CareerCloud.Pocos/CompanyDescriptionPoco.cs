@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -15,7 +17,10 @@ namespace CareerCloud.Pocos
         public string CompanyName { get; set; }
         [Column("Company_Description")]
         public string CompanyDescription { get; set; }
-        [Column("Time_Stamp")]
+        [Column("Time_Stamp")]        
         public Byte[] TimeStamp { get; set; }
+        public SystemLanguageCodePoco SystemLanguageCode { get; set; }
+        public CompanyProfilePoco CompanyProfile { get; set; }
+
     }
 }

@@ -14,7 +14,8 @@ namespace CareerCloud.Pocos
         public string SourceIP { get; set; }
         [Column("Logon_Date")]
         public DateTime LogonDate { get; set; }
-        [Column("Is_Succesful")]
+        [Column("Is_Succesful")]        
         public Boolean IsSuccesful { get; set; }
+        public SecurityLoginPoco SecurityLogin { get; set; }
     }
 }

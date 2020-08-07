@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -31,7 +33,10 @@ namespace CareerCloud.Pocos
         public Boolean ForceChangePassword { get; set; }
         [Column("Prefferred_Language")]
         public string PrefferredLanguage { get; set; }
-        [Column("Time_Stamp")]
+        [Column("Time_Stamp")]        
         public Byte[] TimeStamp { get; set; }
+        public ICollection<SecurityLoginsLogPoco> SecurityLoginsLogs{ get; set; }
+        public ICollection<SecurityLoginsRolePoco> SecurityLoginsRoles { get; set; }
+        public ICollection<ApplicantProfilePoco> ApplicantProfiles { get; set; }
     }
 }

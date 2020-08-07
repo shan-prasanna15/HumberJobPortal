@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -19,7 +19,8 @@ namespace CareerCloud.Pocos
         public DateTime? CompletionDate { get; set; }
         [Column("Completion_Percent")]
         public Byte? CompletionPercent { get; set; }
-        [Column("Time_Stamp")]
-        public Byte[] TimeStamp { get; set; }
+        [Column("Time_Stamp")]        
+        public Byte[] TimeStamp { get; set; }        
+        public ApplicantProfilePoco ApplicantProfiles { get; set; }
     }
 }

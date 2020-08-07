@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -25,8 +26,15 @@ namespace CareerCloud.Pocos
         public string City { get; set; }
         [Column("Zip_Postal_Code")]
         public string PostalCode { get; set; }
-        [Column("Time_Stamp")]
+        [Column("Time_Stamp")]        
         public Byte[] TimeStamp { get; set; }
+        public ICollection<ApplicantJobApplicationPoco> ApplicantJobApplications { get; set; }
+        public ICollection<ApplicantEducationPoco> ApplicantEducations { get; set; }
+        public SecurityLoginPoco SecurityLogin { get; set; }
+        public ICollection<ApplicantResumePoco> ApplicantResume { get; set; }
+        public ICollection<ApplicantSkillPoco> ApplicantSkills { get; set; }
+        public ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistories { get; set; }
+        public SystemCountryCodePoco SystemCountryCode { get; set; }
 
     }
 }
