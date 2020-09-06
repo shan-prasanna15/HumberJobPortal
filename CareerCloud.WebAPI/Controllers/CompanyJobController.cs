@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("job/{id}")]
         [ProducesResponseType(typeof(CompanyJobPoco), 200)]
         public ActionResult GetCompanyJob(Guid id)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("job")]
         public ActionResult PostCompanyJob([FromBody] CompanyJobPoco[] pocos)
         {
             _logic.Add(pocos);
@@ -47,7 +47,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("job")]
         public ActionResult PutCompanyJob([FromBody] CompanyJobPoco[] pocos)
         {
             _logic.Update(pocos);
@@ -55,7 +55,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("job")]
         public ActionResult DeleteCompanyJob([FromBody] CompanyJobPoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -63,7 +63,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("job")]
         [ProducesResponseType(typeof(List<CompanyJobPoco>),200)]
         public ActionResult GetCompanyJob()
         {

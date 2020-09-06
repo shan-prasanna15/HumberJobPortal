@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("workhistory/{id}")]
         [ProducesResponseType(typeof(ApplicantWorkHistoryPoco), 200)]
         public ActionResult GetApplicantWorkHistory(Guid id)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("workhistory")]
         public ActionResult PostApplicantWorkHistory([FromBody] ApplicantWorkHistoryPoco[] pocos)
         {
             _logic.Add(pocos);
@@ -47,7 +47,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("workhistory")]
         public ActionResult PutApplicantWorkHistory([FromBody] ApplicantWorkHistoryPoco[] pocos)
         {
             _logic.Update(pocos);
@@ -55,7 +55,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("workhistory")]
         public ActionResult DeleteApplicantWorkHistory([FromBody] ApplicantWorkHistoryPoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -63,7 +63,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("workhistory")]
         [ProducesResponseType(typeof(List<ApplicantWorkHistoryPoco>), 200)]
         public ActionResult GetApplicantWorkHistory()
         {

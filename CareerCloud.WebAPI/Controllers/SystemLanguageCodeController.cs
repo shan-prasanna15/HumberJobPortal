@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("languagecode/{id}")]
         [ProducesResponseType(typeof(SystemLanguageCodePoco), 200)]
         public ActionResult GetSystemLanguageCode(string code)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("languagecode")]
         public ActionResult PostSystemLanguageCode([FromBody] SystemLanguageCodePoco[] pocos)
         {
             _logic.Add(pocos);
@@ -47,7 +47,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("languagecode")]
         public ActionResult PutSystemLanguageCode([FromBody] SystemLanguageCodePoco[] pocos)
         {
             _logic.Update(pocos);
@@ -55,7 +55,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("languagecode")]
         public ActionResult DeleteSystemLanguageCode([FromBody] SystemLanguageCodePoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -63,7 +63,8 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("languagecode." +
+            "")]
         [ProducesResponseType(typeof(List<SystemLanguageCodePoco>), 200)]
         public ActionResult GetSystemLanguageCode()
         {

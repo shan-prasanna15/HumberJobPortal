@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("countrycode/{code}")]
         [ProducesResponseType(typeof(SystemCountryCodePoco), 200)]
         public ActionResult GetSystemCountryCode(string code)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("countrycode")]
         public ActionResult PostSystemCountryCode([FromBody] SystemCountryCodePoco[] pocos)
         {
             _logic.Add(pocos);
@@ -47,7 +47,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("countrycode")]
         public ActionResult PutSystemCountryCode([FromBody] SystemCountryCodePoco[] pocos)
         {
             _logic.Update(pocos);
@@ -55,7 +55,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("countrycode")]
         public ActionResult DeleteSystemCountryCode([FromBody] SystemCountryCodePoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -63,7 +63,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("countrycode")]
         [ProducesResponseType(typeof(List<SystemCountryCodePoco>), 200)]
         public ActionResult GetSystemCountryCode()
         {

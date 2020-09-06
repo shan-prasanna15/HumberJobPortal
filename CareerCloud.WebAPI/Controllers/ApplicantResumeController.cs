@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("resume/{id}")]
         [ProducesResponseType(typeof(ApplicantResumePoco), 200)]
         public ActionResult GetApplicantResume(Guid id)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("resume")]
         public ActionResult PostApplicantResume([FromBody] ApplicantResumePoco[] pocos)
         {
             _logic.Add(pocos);
@@ -47,7 +47,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("resume")]
         public ActionResult PutApplicantResume([FromBody] ApplicantResumePoco[] pocos)
         {
             _logic.Update(pocos);
@@ -55,7 +55,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("resume")]
         public ActionResult DeleteApplicantResume([FromBody] ApplicantResumePoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -63,7 +63,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("resume")]
         [ProducesResponseType(typeof(List<ApplicantResumePoco>), 200)]
         [ProducesResponseType(typeof(List<ApplicantResumePoco>), 200)]
         public ActionResult GetApplicantResume()

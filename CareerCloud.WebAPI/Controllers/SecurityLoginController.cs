@@ -22,7 +22,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("login/{id}")]
         [ProducesResponseType(typeof(SecurityLoginPoco), 200)]
         public ActionResult GetSecurityLogin(Guid id)
         {
@@ -38,7 +38,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("login")]
         public ActionResult PostSecurityLogin([FromBody] SecurityLoginPoco[] pocos)
         {
             _logic.Add(pocos);
@@ -46,7 +46,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("login")]
         public ActionResult PutSecurityLogin([FromBody] SecurityLoginPoco[] pocos)
         {
             _logic.Update(pocos);
@@ -54,7 +54,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("login")]
         public ActionResult DeleteSecurityLogin([FromBody] SecurityLoginPoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -62,7 +62,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("login")]
         [ProducesResponseType(typeof(List<SecurityLoginPoco>), 200)]
         [ProducesResponseType(typeof(List<SecurityLoginPoco>), 200)]
         public ActionResult GetSecurityLogin()

@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education/{id}")]
+        [Route("skill/{id}")]
         [ProducesResponseType(typeof(ApplicantSkillPoco), 200)]
         public ActionResult GetApplicantSkill(Guid id)
         {
@@ -39,7 +39,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPost]
-        [Route("education")]
+        [Route("skill")]
         public ActionResult PostApplicantSkill([FromBody] ApplicantSkillPoco[] pocos)
         {
             _logic.Add(pocos);
@@ -47,7 +47,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpPut]
-        [Route("education")]
+        [Route("skill")]
         public ActionResult PutApplicantSkill([FromBody] ApplicantSkillPoco[] pocos)
         {
             _logic.Update(pocos);
@@ -55,7 +55,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpDelete]
-        [Route("education")]
+        [Route("skill")]
         public ActionResult DeleteApplicantSkill([FromBody] ApplicantSkillPoco[] pocos)
         {
             _logic.Delete(pocos);
@@ -63,7 +63,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("education")]
+        [Route("skill")]
         [ProducesResponseType(typeof(List<ApplicantSkillPoco>), 200)]
         public ActionResult GetApplicantSkill()
         {
