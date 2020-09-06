@@ -23,7 +23,7 @@ namespace CareerCloud.WebAPI.Controllers
         }
 
         [HttpGet]
-        [Route("languagecode/{id}")]
+        [Route("languagecode/{code}")]
         [ProducesResponseType(typeof(SystemLanguageCodePoco), 200)]
         public ActionResult GetSystemLanguageCode(string code)
         {
