@@ -58,9 +58,9 @@ namespace CareerCloud.BusinessLogicLayer
             _repository.Remove(pocos);
         }
 
-        public void Get(Expression<Func<SystemLanguageCodePoco, bool>> where, params Expression<Func<SystemLanguageCodePoco, object>>[] navigationProperties)
+        public SystemLanguageCodePoco Get(string languageId)
         {
-            _repository.GetSingle(where, navigationProperties);
+            return _repository.GetSingle(l=> l.LanguageID == languageId);
         }
 
         public IList<SystemLanguageCodePoco> GetAll(params Expression<Func<SystemLanguageCodePoco, object>>[] navigationProperties)

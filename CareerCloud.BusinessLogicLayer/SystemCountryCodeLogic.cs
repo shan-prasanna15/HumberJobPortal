@@ -39,9 +39,9 @@ namespace CareerCloud.BusinessLogicLayer
             _repository.Remove(items);
         }
 
-        public void Get(Expression<Func<SystemCountryCodePoco, bool>> where, params Expression<Func<SystemCountryCodePoco, object>>[] navigationProperties)
+        public SystemCountryCodePoco Get(string name)
         {
-            _repository.GetSingle(where, navigationProperties);
+            return _repository.GetSingle(c => c.Name == name);
         }
 
         protected void Verify(SystemCountryCodePoco[] pocos)
