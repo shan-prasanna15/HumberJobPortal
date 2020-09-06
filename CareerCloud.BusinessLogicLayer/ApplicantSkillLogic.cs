@@ -40,7 +40,7 @@ namespace CareerCloud.BusinessLogicLayer
                 {
                     exceptions.Add(new ValidationException(103, "Start Year cannot be less than year 1900"));
                 }
-                if (poco.EndMonth < poco.StartYear)
+                if (poco.EndYear < poco.StartYear)
                 {
                     exceptions.Add(new ValidationException(104, "End Year cannot be less than the End Year"));
                 }
