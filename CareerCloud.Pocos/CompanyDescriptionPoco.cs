@@ -24,3 +24,5 @@ namespace CareerCloud.Pocos
 
     }
 }
+
+

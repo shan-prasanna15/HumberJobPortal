@@ -63,7 +63,7 @@ namespace CareerCloud.BusinessLogicLayer
             return _repository.GetSingle(l=> l.LanguageID == languageId);
         }
 
-        public IList<SystemLanguageCodePoco> GetAll(params Expression<Func<SystemLanguageCodePoco, object>>[] navigationProperties)
+        public List<SystemLanguageCodePoco> GetAll(params Expression<Func<SystemLanguageCodePoco, object>>[] navigationProperties)
         {
             return _repository.GetAll(navigationProperties).ToList();
         }
